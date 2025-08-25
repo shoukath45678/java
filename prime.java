@@ -3,7 +3,7 @@ public class PrimeNumbers1To500 {
     public static void main(String[] args) {
         System.out.println("Prime numbers from 1 to 500 are:");
 
-        for (int i = 2; i <= 100; i++) { // Start from 2 as 1 is not prime
+        for (int i = 2; i <= 500; i++) { // Start from 2 as 1 is not prime
             if (isPrime(i)) {
                 System.out.println(i);
             }
@@ -27,3 +27,4 @@ public class PrimeNumbers1To500 {
     }
 
 }
+
